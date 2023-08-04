@@ -74,17 +74,7 @@ def callback(message: PubsubMessage):
     message.ack()
 
 gcp_sa_credentials={
-  "type": "service_account",
-  "project_id": "greenfielddemos",
-  "private_key_id": "4c6fe59343f2e6aa131891e5d1196684ea9fa953",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCN1dNzUzlDNFlK\nrB1662qJuFdod0ILCLpTWLc4jvAJ7L0rNgBjcA3xZpQe1m/mRbxkJPGJgLR7W19W\ny0Zec6+/qRJcRl0+M2U+nki0/g75DC7tosXkKo8Z5VH0k0eAZPdVv4USnP9FGp/H\nZZKL8L6D0dWXsl0oPYeS8sPeLVPpsuATVEubq/K1at0UM59W0VWBDliwowFyayP4\nlO0RB6gCjsjqZI9qQiGRab9QnvYWdJlFFAjvMxjoqoHNS/L8scvhIHMV7dpSzbgq\n+Tvv4V91D+/DwEa6+2Bqji30Hj/OBeY4o1br5ZfAmVazkJhA4rPAYe3QIW36+VhK\nwAN5hMNLAgMBAAECggEAE2niIGs9b5fEZQvRQ9g3OT80ekW153a8B4PMHaoK7FYt\nal22Mzt3h8Q89UpFVLp/gnbqt0xuPQ2RANCgAsuePFidp72wg5QGAUp/CdmrHlGZ\nlsiXLOzaW3a0/19YA8NOILwvMGYG1rmXMcloWU6MH9Tigc9Vyu0+bPxc7Os9Yhj3\n56ZWLiuZOuwJ8okbHPsorMwrgrvNDv9SahS261S8TVa01dxGtlb/d0NF9OUQn1Go\noA4POF8NCm1D7aai92aFybs69heoKEksbUCh17MZO41utMmCxrf/PxdC8HnzaIEF\n5y4ybUKuVBlIKCtjgcT+BeB6exncQC2wcsPQtA3nAQKBgQDEOq9o1ruj/1wCstyo\n2xL8vR46tSa+DXVXnOHFYrdo8PItpZBUbgsVwsDT/tWn0Hza2RuFmwfXWbAtSC1P\nBp/fr0RTAnLz5oq2s0OkEVewQzILPOlze5cgNyhMs2Z5iIunykFl+SxNxZdidOJt\nP4zG9rC1SnSHZ/so7cySCVOwywKBgQC5Ca0GLj4cbjMq0sw81A2PeZcMk52GrMfe\nOKkNZ7gSCGwOuqIBW5436S34EkcspNwcUle4Gm2FMM+gW9Y9WswJM6D0ZygJQEPS\nkRGjAkUNGLIiwOFb3U07D7NonlPMQGKmYbVolmrqOJX534ICVVRLb1DE+OKZohxL\nVj8TasVngQKBgHfiPp43aoYEEcuYSNVkmlIMnHZTjCragBEZyJlV+SXE5sBagTYD\n0QPnavVZoGCZMF5n+7eBgqXfppHTodLBAlWfd4ebXG2EMMTz+mQ3MDKAqwdQnHOw\nUyEccaOCix2+/Utydsf9FkMhb554OIl0JOa9ejIYHd9H+JsFxVCHIDlHAoGBAIJl\ndzEr1Uljv1smQhd7uDKrlO6f+Bq4GAFaHIf915GdrciTbSdX0R/Fi0eOWen0I8kx\nne93cEa0Jxzymv+RxMeXQo35RBWA3Eq/QJaHOvIHvUEQe7+pLIu6fMv1B0ig9uQZ\nZyXVGnMEfWwhPhU23LhsMZcdbVKnExlkJf8g9wwBAoGBALyFmIntr3EDtAKJLMhG\nk22LCw+WIRFHT+x0DOjIc0+kJ5i0s9LPCiwdphAUtunOSj9VuiPhpZbHt+OTrdaw\nA5uL9D+b1n3IYBz5t92axFMFGRfDLk3GK3E2LToHF5/6I/Fv1F1eqUJkQFQOHDsl\nz5moTAiI9Xk2m8+5243jQYtu\n-----END PRIVATE KEY-----\n",
-  "client_email": "bms-svc-acct@greenfielddemos.iam.gserviceaccount.com",
-  "client_id": "109213598062139450151",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bms-svc-acct%40greenfielddemos.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+# change with ur service key
 }
 
 project_id=gcp_sa_credentials["project_id"]
