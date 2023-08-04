@@ -1,0 +1,4 @@
+pandas
+google-cloud-pubsublite
+google-cloud-logging
+pickledb

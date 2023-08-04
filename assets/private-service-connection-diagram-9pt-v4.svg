@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="527px" height="340px" viewBox="0 0 527 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>diagram</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Final-designs---Primary/Secondary-SN-flows" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.2D" transform="translate(-472.000000, -280.000000)">
+            <g id="ng2-subtask-copy" transform="translate(448.000000, 0.000000)">
+                <g id="diagram" transform="translate(24.000000, 280.000000)">
+                    <g id="Group-9">
+                        <g id="Group-6">
+                            <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill-rule="nonzero" x="0.487060998" y="0.487060998" width="213.332717" height="339.025878"></rect>
+                            <g id="Group-7" transform="translate(11.689464, 27.144385)">
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#E1F6FE" fill-rule="nonzero" x="0.487060998" y="0.487060998" width="189.953789" height="168.571333"></rect>
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#E2F3EC" fill-rule="nonzero" x="9.17652495" y="58.1875958" width="172.574861" height="102.191653"></rect>
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#EDE7F7" fill-rule="nonzero" x="16.9695009" y="82.4656706" width="150.988909" height="68.1274823"></rect>
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#FFFFFF" fill-rule="nonzero" x="24.7624769" y="105.770483" width="135.402957" height="35.0365732"></rect>
+                                <text id="Your-VPC-network-(ie" font-family="RobotoMono-Bold, Roboto Mono, Roboto" font-size="9" font-weight="bold" letter-spacing="0.02888889" fill="#000000" fill-opacity="0.654000015">
+                                    <tspan x="8.68946396" y="17.6791444">Your VPC network</tspan>
+                                    <tspan x="8.68946396" y="27.6791444" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal">(ie. managed-services-test)</tspan>
+                                    <tspan x="8.68946396" y="37.6791444" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal"></tspan>
+                                    <tspan x="8.68946396" y="47.6791444" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-weight="400">Allocated range:</tspan>
+                                    <tspan x="85.9641862" y="47.6791444" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal"> 10.240.0.0/16</tspan>
+                                </text>
+                                <text id="Region:-us-central1" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                    <tspan x="16.4824399" y="73.486631">Region:</tspan>
+                                    <tspan x="50.2901309" y="73.486631" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal"> us-central1</tspan>
+                                </text>
+                                <text id="Subnet:-10.1.0.0/24" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                    <tspan x="24.2754159" y="97.7647059">Subnet: </tspan>
+                                    <tspan x="62.912777" y="97.7647059" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal">10.1.0.0/24</tspan>
+                                </text>
+                                <text id="VM1-10.1.0.2" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                    <tspan x="85.7065114" y="121.122995">VM1</tspan>
+                                    <tspan x="73.6323361" y="131.122995" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal">10.1.0.2</tspan>
+                                </text>
+                            </g>
+                            <text id="Your-project" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                <tspan x="11.689464" y="18.6791444">Your project</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-6-Copy" transform="translate(167.548983, 0.000000)">
+                            <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill-rule="nonzero" x="145.631238" y="0.487060998" width="213.332717" height="339.025878"></rect>
+                            <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#E1F6FE" fill-rule="nonzero" x="157.320702" y="27.631446" width="189.953789" height="300.523204"></rect>
+                            <text id="Service-producer-pro" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                <tspan x="156.833641" y="18.6791444">Service producer project for you</tspan>
+                            </text>
+                            <text id="Private-connection-(" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-size="9" font-weight="normal" letter-spacing="0.0281413001" fill="#3367D6">
+                                <tspan x="54.0958864" y="33.3048128">Private connection</tspan>
+                                <tspan x="72.9146381" y="43.3048128">(Assigned: </tspan>
+                                <tspan x="63.5052622" y="53.3048128">10.240.0.0/16)</tspan>
+                            </text>
+                            <text id="VPC-Network-Peering" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-size="9" font-weight="normal" letter-spacing="0.0281413001" fill="#3367D6">
+                                <tspan x="69.5881721" y="83.9144385">VPC Network </tspan>
+                                <tspan x="78.9975479" y="93.9144385">Peering</tspan>
+                            </text>
+                            <text id="Private-services-acc" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-size="9" font-weight="normal" letter-spacing="0.0281413001" fill="#00806f">
+                                <tspan x="57.8264523" y="142.31016">Private services </tspan>
+                                <tspan x="62.5273351" y="152.31016">access traffic</tspan>
+                            </text>
+                            <g id="Group-8" transform="translate(168.523105, 67.700535)">
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#E2F3EC" fill-rule="nonzero" x="0.487060998" y="0.487060998" width="166.574861" height="109.763846"></rect>
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#EDE7F7" fill-rule="nonzero" x="8.28003697" y="22.7651359" width="150.988909" height="77.7531507"></rect>
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#FFFFFF" fill-rule="nonzero" x="16.0730129" y="55.6956171" width="135.402957" height="35.0365732"></rect>
+                                <text id="Region:-us-central1" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                    <tspan x="7.79297597" y="15.7860963">Region:</tspan>
+                                    <tspan x="41.600667" y="15.7860963" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal"> us-central1</tspan>
+                                </text>
+                                <text id="Subnet-for-Cloud-SQL" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                    <tspan x="15.5859519" y="36.0641711">Subnet for Cloud SQL: </tspan>
+                                    <tspan x="15.5859519" y="46.0641711" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal">10.240.0.0/24</tspan>
+                                </text>
+                                <text id="DB1-10.240.0.2" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                    <tspan x="77.0170475" y="70.0481283">DB1</tspan>
+                                    <tspan x="60.113202" y="80.0481283" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal">10.240.0.2</tspan>
+                                </text>
+                            </g>
+                            <g id="Group-6-Copy-2" transform="translate(168.523105, 210.224599)">
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#E2F3EC" fill-rule="nonzero" x="0.487060998" y="0.487060998" width="166.574861" height="108.312216"></rect>
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#EDE7F7" fill-rule="nonzero" x="8.28003697" y="20.7881932" width="150.988909" height="78.8834607"></rect>
+                                <rect id="Rectangle" stroke="#9FBCFA" stroke-width="0.974121996" fill="#FFFFFF" fill-rule="nonzero" x="16.0730129" y="55.6688792" width="135.402957" height="35.0365732"></rect>
+                                <text id="Region:-us-central1" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                    <tspan x="7.79297597" y="14.7860963">Region:</tspan>
+                                    <tspan x="41.600667" y="14.7860963" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal"> us-central1</tspan>
+                                </text>
+                                <text id="Subnet-for-another-s" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                    <tspan x="15.5859519" y="36.0641711">Subnet for another service: </tspan>
+                                    <tspan x="15.5859519" y="46.0641711" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal">10.240.10.0/24</tspan>
+                                </text>
+                                <text id="Resource-10.240.10.2" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                    <tspan x="64.9428721" y="70.0213904">Resource</tspan>
+                                    <tspan x="60.113202" y="80.0213904" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal">10.240.10.2</tspan>
+                                </text>
+                            </g>
+                            <text id="Service-producer-VPC" font-family="RobotoMono-Medium, Roboto Mono, Roboto" font-size="9" font-weight="400" letter-spacing="0.02888889" fill="#000000">
+                                <tspan x="168.523105" y="45.8235294">Service producer VPC network</tspan>
+                                <tspan x="303.753869" y="45.8235294" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal" fill-opacity="0.654000015"></tspan>
+                                <tspan x="168.523105" y="55.8235294" font-family="RobotoMono-Regular, Roboto Mono, Roboto" font-weight="normal" fill-opacity="0.654000015">(ie. Google)</tspan>
+                            </text>
+                        </g>
+                        <path d="M193.253242,159.614973 L336.072089,159.614973" id="Line-2" stroke="#00806f" stroke-width="0.974121996" stroke-linecap="square" fill-rule="nonzero"></path>
+                        <path d="M202.685703,101.219251 L323.980142,101.219251" id="Line-2" stroke="#3367D6" stroke-width="0.974121996" stroke-linecap="square" fill-rule="nonzero"></path>
+                        <path d="M263.012939,59.368984 L263.012939,73.9679144" id="Line-3" stroke="#3367D6" stroke-width="0.974121996" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.948243992606285,3.896487985212569" fill-rule="nonzero"></path>
+                    </g>
+                    <polyline id="Line-2" stroke="#00806f" stroke-linecap="square" fill-rule="nonzero" transform="translate(300.293413, 220.299880) rotate(90.000000) translate(-300.293413, -220.299880) " points="239.993532 256.593293 360.593293 256.593293 360.593293 184.006468"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
