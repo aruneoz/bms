@@ -58,7 +58,7 @@ gcloud config set project $PROJECT_ID
 
 ``` shell
 git clone https://github.com/aruneoz/bms.git
-cd SupernalBMS
+cd bms
 ```
 
 
