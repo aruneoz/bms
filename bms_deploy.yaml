@@ -48,7 +48,7 @@ spec:
           - name: GOOGLE_APPLICATION_CREDENTIALS
             value: /var/secrets/google/key.json
           - name: project_number
-            value: 779370283097
+            value: "779370283097"
           - name: cloud_region
             value: "us-central1"
           - name: subscription_id
@@ -58,7 +58,7 @@ spec:
           - name: power_allocate_status_topic_id
             value: "svp.simulation.battery.status"
           - name: timeout
-            value: 90
+            value: "90"
           - name: regional
             value: "True"
         resources:
