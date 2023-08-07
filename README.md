@@ -252,7 +252,9 @@ Output
 
 Step 2:
 
-Next is to deploy the app using the configured Deployment.yaml to the GKE Cluster
+Next is to deploy the app using the configured Deployment.yaml to the GKE Cluster . Please update the following section to reflect ur environment as below
+
+![desired_output](assets/bms_deploy_yaml.png)
 
 ``` shell 
 kubectl apply -f bms_deploy.yaml
