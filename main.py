@@ -18,23 +18,22 @@ from bms import utils,batterypack_simulator
 
 # TODO(developer):
 
-project_number = os.environ("project_number")
+project_number = os.environ.get('project_number')
 #project_number = 779370283097
 #cloud_region = "us-central1"
-cloud_region = os.environ("cloud_region")
+cloud_region = os.environ.get('cloud_region')
 #subscription_id = "initializeBatteryReqSub"
-subscription_id = os.environ("subscription_id")
+subscription_id = os.environ.get('subscription_id')
 #subscription_power_id= "batteryPowerReqSub"
-subscription_power_id = os.environ("subscription_power_id")
+subscription_power_id = os.environ.get('subscription_power_id')
 #power_allocate_status_topic_id = "svp.simulation.battery.status"
-power_allocate_status_topic_id = os.environ("power_allocate_status_topic_id")
+power_allocate_status_topic_id = os.environ.get('power_allocate_status_topic_id')
 #timeout = 90
-timeout = os.environ("timeout")
+timeout = os.environ.get('timeout')
 #regional = True
-regional = os.environ("regional")
+regional = os.environ.get('regional')
 
-if regional:
-    location = CloudRegion(cloud_region)
+location = CloudRegion(cloud_region)
 
 
 subscription_path = SubscriptionPath(project_number, location, subscription_id)
@@ -82,10 +81,10 @@ def callback_allocate_power(message: PubsubMessage):
 
 
 
-    except Exception:
+    except Exception as e:
         traceback.print_exc()
         utils.write_logs("error",
-                         f"Received {message_data} with exception {Exception}.")
+                         f"Received {message_data} with exception {e}.")
     message.ack()
 
 
@@ -106,15 +105,11 @@ def callback(message: PubsubMessage):
         utils.write_logs("info",
                          f"Loaded the Battery Pack Successfully  {res}.")
 
-    except Exception:
+    except Exception as e1:
         traceback.print_exc()
         utils.write_logs("error",
-                         f"Received {message_data} with exception {Exception}.")
+                         f"Received {message_data} with exception {e1}.")
     message.ack()
-
-
-
-
 
 # SubscriberClient() must be used in a `with` block or have __enter__() called before use.
 with SubscriberClient() as subscriber_client1 , SubscriberClient() as subscriber_client2:
