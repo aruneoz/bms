@@ -73,16 +73,8 @@ def callback(message: PubsubMessage):
 
     message.ack()
 
-gcp_sa_credentials={
-# change with ur service key
-}
-
-project_id=gcp_sa_credentials["project_id"]
-
-credentials = service_account.Credentials.from_service_account_info(gcp_sa_credentials)
-
 # SubscriberClient() must be used in a `with` block or have __enter__() called before use.
-with SubscriberClient(credentials=credentials) as subscriber_client1:
+with SubscriberClient() as subscriber_client1:
 
     streaming_pull_future = subscriber_client1.subscribe(
         subscription_path,

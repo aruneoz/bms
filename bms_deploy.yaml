@@ -41,11 +41,26 @@ spec:
             mountPath: /var/secrets/google
         ports:
         - containerPort: 8080
+        # Replace Environment Variables to reflect your env values (e.g.,cloud_region to us-west1).
         env:
           - name: PORT
             value: "8080"
           - name: GOOGLE_APPLICATION_CREDENTIALS
             value: /var/secrets/google/key.json
+          - name: project_number
+            value: 779370283097
+          - name: cloud_region
+            value: "us-central1"
+          - name: subscription_id
+            value: "initializeBatteryReqSub"
+          - name: subscription_power_id
+            value: "batteryPowerReqSub"
+          - name: power_allocate_status_topic_id
+            value: "svp.simulation.battery.status"
+          - name: timeout
+            value: 90
+          - name: regional
+            value: "True"
         resources:
           requests:
             memory: "1Gi"

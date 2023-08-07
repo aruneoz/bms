@@ -1,6 +1,7 @@
 import json
 import traceback
 from concurrent.futures._base import TimeoutError
+import os
 
 from google.oauth2 import service_account
 from google.pubsub_v1 import PubsubMessage
@@ -16,13 +17,21 @@ from google.cloud.pubsublite.types import (
 from bms import utils,batterypack_simulator
 
 # TODO(developer):
-project_number = 779370283097
-cloud_region = "us-central1"
-subscription_id = "initializeBatteryReqSub"
-subscription_power_id= "batteryPowerReqSub"
-power_allocate_status_topic_id = "svp.simulation.battery.status"
-timeout = 90
-regional = True
+
+project_number = os.environ("project_number")
+#project_number = 779370283097
+#cloud_region = "us-central1"
+cloud_region = os.environ("cloud_region")
+#subscription_id = "initializeBatteryReqSub"
+subscription_id = os.environ("subscription_id")
+#subscription_power_id= "batteryPowerReqSub"
+subscription_power_id = os.environ("subscription_power_id")
+#power_allocate_status_topic_id = "svp.simulation.battery.status"
+power_allocate_status_topic_id = os.environ("power_allocate_status_topic_id")
+#timeout = 90
+timeout = os.environ("timeout")
+#regional = True
+regional = os.environ("regional")
 
 if regional:
     location = CloudRegion(cloud_region)
